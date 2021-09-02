@@ -1,0 +1,134 @@
+body { 
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:100%; 
+    line-height:normal; 
+    color:#5f676b; 
+    background-color:#f8f8f6;
+    padding-top: 75px;
+}
+h1 { 
+    font-style: italic; 
+    color: green;
+    text-decoration-color: chartreuse;
+    text-align: center;
+    margin: 25px 50px 75px 100px;
+}
+h2 {
+    text-align: center;
+    margin-block-end: 20px;
+}
+div { 
+    padding-top: 10px;
+    width: auto;
+    margin-left: 200px; 
+    margin-right: 200px;
+}
+p {
+    text-decoration: none;
+    font-size: 20px;
+}
+ul { 
+    border: 1px solid black;
+    background-color: rgba(211, 143, 17, 0.726);
+    padding-top: 5px;
+    padding-right: 3px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+}
+li {  
+    font-size: 20px;
+    margin-top: 10px;
+}
+.nav-menu {
+    width: 100%;
+    text-rendering: auto;
+    overflow: visible;
+    top: 0;
+    border-radius:4px;
+    margin: 0 auto;
+    position: relative;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      box-sizing: border-box;
+      z-index: 999;
+    
+  }
+  .nav-menu ul li >a{
+    display: inline-block;
+    color: rgb(65, 63, 63);
+    text-align: center;
+    padding: 5px 24px;
+    text-decoration: none;
+  }
+  .nav-menu a{
+    color:#eeeeee; 
+    text-decoration:none;
+    font-size: 23px; 
+  }
+  .nav-menu a:hover, a:focus { 
+    text-decoration:underline; 
+    color: rgba(5, 148, 24, 0.877);
+}
+.nav-menu a:focus {
+    outline:none;
+}
+div.polaroid {
+    width: 23%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    float: left;
+    
+}
+.container {
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+  }
+  .box {
+      width: 72%;
+      border: 15px solid green;
+      padding: 50px;
+      margin-top: 5%;
+      margin-left: 200px;
+      margin-right: 200px;
+      background-color: rgba(255, 169, 10, 0.747);
+  }
+ .box h2 {
+    text-decoration: underline;
+  }
+    .box2 {
+      width: 75%;
+      border: 5px solid green;
+      padding: 50px;
+      margin-left: 200px;
+      margin-right: 200px;
+      background-color: snow;
+    }
+    .box3 {
+      color: rgb(0, 0, 0);
+      text-decoration-color: chartreuse;
+      border: 1px solid black;
+      background-color: rgba(82, 226, 82, 0.486);
+      padding: 25px;
+    }
+  .footer {
+    margin-top: 300px;
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+    padding: 30px 30px 20px 30px;
+    color: #2f2f2f;
+    background-color: rgba(255, 169, 10, 0.747);
+    border-top: 1px solid #e5e5e5;
+  }
+  
+  .footer > * {
+    flex:  1 100%;
+  }
+  .legal {
+    display: flex;
+    flex-wrap: wrap;
+    color: #999;
+  }
